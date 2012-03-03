@@ -1,6 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/dennis/.vim/bundle/pyflakes/ftplugin/python/pyflakes'
-let g:netrw_dirhist_2='/home/dennis/Dev/cellphones'
-let g:netrw_dirhist_3='/home/dennis/Dev/project_aurora/.git'
-let g:netrw_dirhist_4='/home/dennis/Dev/project_aurora'
+let g:netrw_dirhist_cnt =0
