@@ -1,4 +1,5 @@
 call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 
 syntax on               " Turns syntax highlighting on
 colorscheme default     " Defines the color scheme of the syntax highlighting
@@ -41,3 +42,5 @@ set wrap
 au FileType python setlocal tabstop=4
 au FileType python setlocal shiftwidth=4
 au FileType python setlocal softtabstop=4
+
+nnoremap ,m :w <BAR> !lessc % > %:t:r.css<CR><space>
