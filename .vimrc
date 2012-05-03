@@ -1,4 +1,5 @@
 call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 call pathogen#infect()
 
 syntax on               " Turns syntax highlighting on
@@ -43,4 +44,10 @@ au FileType python setlocal tabstop=4
 au FileType python setlocal shiftwidth=4
 au FileType python setlocal softtabstop=4
 
+let mapleader = ','
+let g:tagbar_usearrows = 1
 nnoremap ,m :w <BAR> !lessc % > %:t:r.css<CR><space>
+nnoremap <leader>l :TagbarToggle<CR>
+noremap <leader>o <Esc>:CommandT<CR>
+noremap <leader>O <Esc>:CommandTFlush<CR>
+noremap <leader>m <Esc>:CommandTBuffer<CR>

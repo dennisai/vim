@@ -1,7 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/home/dennis/Dev/django-boilerplate/requirements'
 let g:netrw_dirhist_2='/home/dennis/Dev/mavenize/mavenize-beta/env'
 let g:netrw_dirhist_3='/home/dennis/Dev/mavenize/mavenize-beta/apps/activity_feed/templates'
 let g:netrw_dirhist_4='/home/dennis/Dev/mavenize/mavenize-beta/apps/item'
 let g:netrw_dirhist_5='/home/dennis/Dev/mavenize/mavenize-beta/apps/activity_feed'
+let g:netrw_dirhist_6='/home/dennis/.vim'
+let g:netrw_dirhist_7='/home/dennis/Dev/eecs/473/Daycorial'
